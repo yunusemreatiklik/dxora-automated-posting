@@ -1,0 +1,15 @@
+.env
+.env.*
+!.env.example
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
+.coverage
+htmlcov/
+
+# WordPress OAuth2 access token (never commit)
+.wordpress_oauth_token.json
+.wordpress_oauth_token.json.tmp
