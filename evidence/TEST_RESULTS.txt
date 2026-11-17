@@ -1,0 +1,11 @@
+Dxora Python/FastAPI automated test evidence
+
+Command: python -m pytest -q
+Result: 29 passed (offline, using mocked HTTP requests)
+
+Scope: request validation, five provider adapters, error isolation, OAuth2 flow,
+WordPress API responses, Discord existing-message verification and Bluesky permalinks.
+
+These tests do not publish live messages. Separate real-world confirmation is
+summarized in evidence/LIVE_VERIFICATION_SUMMARY.md. No access tokens, OAuth
+secrets, or live webhook URLs are included in the distributed project.
